@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.Contenedor_menu{
+    width: 50%;
+    height: 100%;
+    color: rgb(5, 5, 5);
+    margin:auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+   
+    
+   
+}
+table{
+    margin:auto;
+    color: rgb(14, 13, 13);
+}
+.titulos_tabla{
+    background: #082858;
+    color: white;
+}
+.listado{
+    text-align: center;
+    width: 90%;
+    height: 400px;
+    color: rgb(15, 15, 15);
+    margin: 0.1em auto;
+    padding: 0.1em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+   
+}
+.buscadorc{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    margin:auto;
+    padding: 0.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 50px;
+    
+}
+.boton{
+    height: 50px;
+    width: 1%;
+    text-decoration: none;
+    font-weight:bold;
+    
+}
+
+.boton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #082858;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.boton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1s;
+  }
+.control{
+    height: 40px;
+    width: 50%;
+    border-radius:5px;
+    text-decoration: none;
+    font-weight:bold;
+    display:inline-block;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+header {
+	width:100%;
+	overflow:hidden; 
+    background: #022e3b;
+}
+ 
+.wrapper {
+	width:100%;
+	max-width:1000px; 
+	margin:auto; 
+    overflow:hidden; 
+    margin-top: 10px;
+}
+
+
+.logo {
+	color:#ffffff;
+    float:left;
+    width: 100%; height: 50px;
+}
+.logo2 {
+    float:left;
+    width: 250px; height:100px;
+    margin: 4px;
+    padding: 2px;
+}
+
+header .eslogan {
+	color:#ffffff;
+	font-size:50px;
+	line-height:100px;
+	float:left;
+}
+.pestañas{
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:100px;
+    background: rgb(182, 80, 43);
+}
+ 
+header nav {
+	float:right;
+    line-height:100px;
+    margin: auto;
+}
+ 
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+ 
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}
